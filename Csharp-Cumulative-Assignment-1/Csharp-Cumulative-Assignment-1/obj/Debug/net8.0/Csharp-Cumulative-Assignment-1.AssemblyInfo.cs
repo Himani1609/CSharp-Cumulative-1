@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Csharp-Cumulative-Assignment-1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f9f177221f9da1aa304efec6dc06babc0a3ee76")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b8a839a4441fee63ef302a90361a2af32d8ce48")]
 [assembly: System.Reflection.AssemblyProductAttribute("Csharp-Cumulative-Assignment-1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Csharp-Cumulative-Assignment-1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

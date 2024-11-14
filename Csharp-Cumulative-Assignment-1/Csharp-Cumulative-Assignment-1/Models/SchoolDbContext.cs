@@ -4,22 +4,20 @@ namespace Csharp_Cumulative_Assignment_1.Models
 {
     public class SchoolDbContext
     {
-        //These are readonly "secret" properties. 
-        //Only the BlogDbContext class can use them.
-        //Change these to match your own local blog database!
+        // Input the details of the username, password, server, and port number to connect the server to the database
         private static string User { get { return "himani_1609"; } }
         private static string Password { get { return "manik1407"; } }
         private static string Database { get { return "school"; } }
         private static string Server { get { return "localhost"; } }
         private static string Port { get { return "3306"; } }
 
-        //ConnectionString is a series of credentials used to connect to the database.
+        // ConnectionString is a series of credentials which is used to connect to the database
         protected static string ConnectionString
         {
             get
             {
-                //convert zero datetime is a db connection setting which returns NULL if the date is 0000-00-00
-                //this can allow C# to have an easier interpretation of the date (no date instead of 0 BCE)
+                // convert zero datetime is a db connection setting which returns NULL if the date is 0000-00-00
+                // which allows interpretation of the date in Csharp
 
                 return "server = " + Server
                     + "; user = " + User
@@ -29,19 +27,22 @@ namespace Csharp_Cumulative_Assignment_1.Models
                     + "; convert zero datetime = True";
             }
         }
-        //This is the method we actually use to get the database!
+
+
+
+        /// We use this method to get Database
         /// <summary>
-        /// Returns a connection to the blog database.
+        /// It returns a connection to the Database
         /// </summary>
         /// <example>
-        /// private BlogDbContext Blog = new BlogDbContext();
-        /// MySqlConnection Conn = Blog.AccessDatabase();
+        /// private SchoolDbContext Teachers = new SchoolDbContext();
+        /// MySqlConnection Connection = Teachers.AccessDatabase();
         /// </example>
         /// <returns>A MySqlConnection Object</returns>
         public MySqlConnection AccessDatabase()
         {
-            //We are instantiating the MySqlConnection Class to create an object
-            //the object is a specific connection to our blog database on port 3307 of localhost
+            // We are giving instance to SchoolDbContext class to create an object
+            // The object is a specific connection to our school database on port 3306 of localhost
             return new MySqlConnection(ConnectionString);
         }
     }
