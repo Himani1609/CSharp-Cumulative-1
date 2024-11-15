@@ -82,7 +82,7 @@ namespace Csharp_Cumulative_Assignment_1.Controllers
                             TeacherHireDate = TeacherHireDate,
                             EmployeeNumber = EmployeeNumber,
                             TeacherSalary = Salary
-                         };
+                        };
 
 
                         // Adding all the values of properties of EachTeacher in Teachers List
@@ -148,7 +148,7 @@ namespace Csharp_Cumulative_Assignment_1.Controllers
                         int Id = Convert.ToInt32(ResultSet["teacherid"]);
                         string FirstName = ResultSet["teacherfname"].ToString();
                         string LastName = ResultSet["teacherlname"].ToString();
-                        string EmployeeNumber = ResultSet["employeenumber"].ToString();                       
+                        string EmployeeNumber = ResultSet["employeenumber"].ToString();
                         DateTime TeacherHireDate = Convert.ToDateTime(ResultSet["hiredate"]);
                         decimal Salary = Convert.ToDecimal(ResultSet["salary"]);
 
