@@ -17,5 +17,4 @@ This project is intended for educational institutions, developers, or anyone int
 
 The project serves as a learning tool for:
 - **_New Developers_**: By exploring a simple C# project structure.
-- **_Students_**: Studying OOP concepts and looking for practical examples.
-- **_Institutions_**: For potential adaptation into more extensive data management applications.
+- **_Students_**: Studying OOP and CRUD concepts and looking for practical examples.
