@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|d:\\web_development\\csharp-cumulative-1\\csharp-cumulative-assignment-1\\csharp-cumulative-assignment-1\\views\\teacherpage\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|solutionrelative:csharp-cumulative-assignment-1\\views\\teacherpage\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Show.cshtml",
+              "DocumentMoniker": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Views\\TeacherPage\\Show.cshtml",
+              "RelativeDocumentMoniker": "Csharp-Cumulative-Assignment-1\\Views\\TeacherPage\\Show.cshtml",
+              "ToolTip": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Views\\TeacherPage\\Show.cshtml",
+              "RelativeToolTip": "Csharp-Cumulative-Assignment-1\\Views\\TeacherPage\\Show.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T16:36:29.178Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
