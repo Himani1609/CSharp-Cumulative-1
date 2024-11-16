@@ -13,7 +13,7 @@ namespace Csharp_Cumulative_Assignment_1.Controllers
     public class StudentAPIController : ControllerBase
     {
 
-        // This is dependancy injection
+        // This is a dependancy injection
         private readonly SchoolDbContext _studentcontext;
         public StudentAPIController(SchoolDbContext studentcontext)
         {
