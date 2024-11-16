@@ -3,8 +3,9 @@
 <!-- Displaying all the teachers on the web page from where you can select any teacher  -->
 
 <div class="teacher-list">
+    <h2>Our Teachers</h2>
     @foreach (Csharp_Cumulative_Assignment_1.Models.Teacher Teacher in Model)
-    {
+    {        
         <div class="teacher-card">
             <a href="/TeacherPage/Show/@Teacher.TeacherId" class="teacher-link">
                 <h3 class="teacher-name">@Teacher.TeacherFName @Teacher.TeacherLName</h3>
