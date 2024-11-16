@@ -97,7 +97,7 @@ namespace Csharp_Cumulative_Assignment_1.Controllers
             /// When we select one course , it returns information of the selected Course in the database by their ID 
             /// </summary>
             /// <example>
-            /// GET api/Course/FindCourse/3 -> {"CourseId":3,"CourseFname":"Sam","CourseLName":"Cooper"}
+            /// GET api/Course/FindCourse/3 -> {"CourseId":3,"Coursename":Web Development, .......}
             /// </example>
             /// <returns>
             /// Information about the Course selected

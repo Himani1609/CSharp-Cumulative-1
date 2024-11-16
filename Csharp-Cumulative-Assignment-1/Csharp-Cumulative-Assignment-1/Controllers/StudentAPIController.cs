@@ -25,8 +25,8 @@ namespace Csharp_Cumulative_Assignment_1.Controllers
         /// When we click on Students in Navigation bar on Home page, We are directed to a webpage that lists all students in the database student
         /// </summary>
         /// <example>
-        /// GET api/Student/ListStudents -> [{"StudentFname":"Manik", "StudentLName":"Bansal"},{"StudentFname":"Asha", "StudentLName":"Bansal"},.............]
-        /// GET api/Student/ListStudents -> [{"StudentFname":"Apurva", "StudentLName":"Gupta"},{"StudentFname":"Himani", "StudentLName":"Garg"},.............]
+        /// GET api/Student/ListStudents -> [{"StudentFname":"Mohit", "StudentLName":"Bansal"},{"StudentFname":"Darshan", "StudentLName":"Malhotra"},.............]
+        /// GET api/Student/ListStudents -> [{"StudentFname":"Aakriti", "StudentLName":"Garg"},{"StudentFname":"Himanshi", "StudentLName":"Goyal"},.............]
         /// </example>
         /// <returns>
         /// A list all the students in the database student
@@ -100,7 +100,7 @@ namespace Csharp_Cumulative_Assignment_1.Controllers
         /// When we select one student , it returns information of the selected Student in the database by their ID 
         /// </summary>
         /// <example>
-        /// GET api/Student/FindStudent/3 -> {"StudentId":3,"StudentFname":"Sam","StudentLName":"Cooper"}
+        /// GET api/Student/FindStudent/3 -> {"StudentId":3,"StudentFname":"Sam","StudentLName":"Cooper", .......}
         /// </example>
         /// <returns>
         /// Information about the Student selected
