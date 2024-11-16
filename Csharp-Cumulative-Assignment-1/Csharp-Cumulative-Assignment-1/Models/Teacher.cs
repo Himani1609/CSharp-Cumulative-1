@@ -11,7 +11,7 @@
 
     public class Teacher
     {
-        // Unique identifier for each teacher. It is used as the primary key in a database.
+        // Unique identifier for each teacher. It is used as the primary key in Teachers table.
         public int TeacherId { get; set; }
 
         // First name of the teacher. It stores the teacher's first name as a string.
