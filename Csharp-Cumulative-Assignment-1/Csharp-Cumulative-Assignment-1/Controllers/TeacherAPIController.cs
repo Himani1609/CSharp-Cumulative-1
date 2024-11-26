@@ -170,7 +170,61 @@ namespace Csharp_Cumulative_Assignment_1.Controllers
             //Return the Information of the SelectedTeacher
             return SelectedTeacher;
         }
+
+
+
+        [HttpPost(template: "AddTeacher")]
+        public int AddTeacher([FromBody] Teacher TeacherData)
+        {
+            // 'using' will close the connection after the code executes
+            using (MySqlConnection Connection = _schoolcontext.AccessDatabase())
+            {
+                Connection.Open();
+
+                //Establish a new command (query) for our database
+                MySqlCommand Command = Connection.CreateCommand();
+
+               
+                Command.CommandText = "INSERT INTO teachers (teacherfname, teacherlname, employeenumber, salary, hiredate) VALUES (@teacherfname, @teacherlname, @employeenumber, @salary, @hiredate)";
+                
+                Command.Parameters.AddWithValue("@teacherfname", TeacherData.TeacherFName);
+                Command.Parameters.AddWithValue("@teacherlname", TeacherData.TeacherLName);
+                Command.Parameters.AddWithValue("@hiredate", TeacherData.TeacherHireDate);
+                Command.Parameters.AddWithValue("@salary", TeacherData.TeacherSalary);
+                Command.Parameters.AddWithValue("@employeenumber", TeacherData.EmployeeNumber);
+
+                Command.ExecuteNonQuery();
+
+                return Convert.ToInt32(Command.LastInsertedId);
+
+
+            }
+
+        }
+
+
+        [HttpDelete(template: "DeleteTeacher/{TeacherId}")]
+
+        public int DeleteTeacher(int TeacherId)
+        {
+            // 'using' will close the connection after the code executes
+            using (MySqlConnection Connection = _schoolcontext.AccessDatabase())
+            {
+                Connection.Open();
+                //Establish a new command (query) for our database
+                MySqlCommand Command = Connection.CreateCommand();
+
+
+                Command.CommandText = "DELETE FROM teachers WHERE teacherid=@id";
+                Command.Parameters.AddWithValue("@id", TeacherId);
+
+
+                return Command.ExecuteNonQuery();
+
+            }
+
+        }
+
+
     }
-
-
 }
