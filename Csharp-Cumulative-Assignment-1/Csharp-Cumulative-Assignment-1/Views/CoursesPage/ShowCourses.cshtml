@@ -2,11 +2,15 @@
 
 <div class="course-details-container">
 
+    <!-- There is a link "Back to List" lets you go back to the list page -->
+    <!-- Other link "Delete" will direct to another web page confirm if we want to delete the course permanently from our database -->
+
+    <a href="/CoursesPage/ListCourses">Back to List</a> <a class="alert-warning" href="/CoursesPage/DeleteConfirmCourse/@Model.CourseId">Delete</a>
+
     <!-- Displaying the details of the selected course -->
 
     <h1 class="course-name">@Model.CourseName</h1>
     <p class="course-detail">Course Code :  <span>@Model.CourseCode</span></p>
-    <!--<p class="course-detail">Teacher Id :  <span></span></p> -->
     <p class="course-detail">Course Start Date : <span>@Model.CourseStartDate</span></p>
     <p class="course-detail">Course Finish Date :<span>@Model.CourseStartDate</span></p>
 

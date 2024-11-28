@@ -2,6 +2,11 @@
 
 <div class="student-details-container">
 
+    <!-- There is a link "Back to List" lets you go back to the list page -->
+    <!-- Other link "Delete" will direct to another web page confirm if we want to delete the student permanently from our database -->
+
+    <a href="/StudentPage/ListStudent">Back to List</a> <a class="alert-warning" href="/StudentPage/DeleteConfirmStudent/@Model.StudentId">Delete</a>
+
     <!-- Displaying the details of the selected student -->
 
     <h1 class="student-name">@Model.StudentFName @Model.StudentLName</h1>

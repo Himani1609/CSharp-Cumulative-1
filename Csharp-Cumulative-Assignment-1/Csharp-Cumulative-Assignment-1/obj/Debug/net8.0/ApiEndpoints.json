@@ -1,6 +1,58 @@
 [
   {
     "ContainingType": "Csharp_Cumulative_Assignment_1.Controllers.CoursesAPIController",
+    "Method": "AddCourse",
+    "RelativePath": "api/CoursesAPI/AddCourse",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CourseData",
+        "Type": "Csharp_Cumulative_Assignment_1.Models.Course",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Csharp_Cumulative_Assignment_1.Controllers.CoursesAPIController",
+    "Method": "DeleteCourse",
+    "RelativePath": "api/CoursesAPI/DeleteCourse/{CourseId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CourseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Csharp_Cumulative_Assignment_1.Controllers.CoursesAPIController",
     "Method": "FindCourse",
     "RelativePath": "api/CoursesAPI/FindCourse/{id}",
     "HttpMethod": "GET",
@@ -36,6 +88,58 @@
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.List\u00601[[Csharp_Cumulative_Assignment_1.Models.Course, Csharp-Cumulative-Assignment-1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Csharp_Cumulative_Assignment_1.Controllers.StudentAPIController",
+    "Method": "AddStudent",
+    "RelativePath": "api/StudentAPI/AddStudent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StudentData",
+        "Type": "Csharp_Cumulative_Assignment_1.Models.Student",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Csharp_Cumulative_Assignment_1.Controllers.StudentAPIController",
+    "Method": "DeleteStudent",
+    "RelativePath": "api/StudentAPI/DeleteStudent/{StudentId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StudentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
         "MediaTypes": [
           "text/plain",
           "application/json",

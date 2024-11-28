@@ -166,6 +166,91 @@ namespace Csharp_Cumulative_Assignment_1.Controllers
             //Return the Information of the SelectedStudent
             return SelectedStudent;
         }
+
+
+
+
+        /// <summary>
+        /// The method adds a new student to the database by inserting a record into the students table and returns the ID of the inserted student
+        /// </summary>
+        /// <param name="StudentData"> An object containing the details of the student to be added, including first name, last name, employee number, salary, and hire date </param>
+        /// <returns>
+        /// The ID of the newly inserted student record
+        /// </returns>
+        /// <example> 
+        /// POST: api/StudentAPI/AddStudent -> 11
+        /// assuming that 11th record is added
+        /// </example>
+
+
+
+        [HttpPost(template: "AddStudent")]
+        public int AddStudent([FromBody] Student StudentData)
+        {
+            // 'using' keyword is used that will close the connection by itself after executing the code given inside
+            using (MySqlConnection Connection = _studentcontext.AccessDatabase())
+            {
+                // Opening the Connection
+                Connection.Open();
+
+                // Establishing a new query for our database
+                MySqlCommand Command = Connection.CreateCommand();
+
+                // It contains the SQL query to insert a new student into the students table            
+                Command.CommandText = "INSERT INTO students (studentfname, studentlname, studentnumber, enroldate) VALUES (@studentfname, @studentlname, @studentnumber, @enroldate)";
+
+                Command.Parameters.AddWithValue("@studentfname", StudentData.StudentFName);
+                Command.Parameters.AddWithValue("@studentlname", StudentData.StudentLName);
+                Command.Parameters.AddWithValue("@studentnumber", StudentData.StudentNumber);
+                Command.Parameters.AddWithValue("@enroldate", StudentData.StudentEnrolmentDate);
+
+                // It runs the query against the database and the new record is inserted
+                Command.ExecuteNonQuery();
+
+                // It fetches the ID of the newly inserted student record and converts it to an integer to be returned
+                return Convert.ToInt32(Command.LastInsertedId);
+
+
+            }
+
+        }
+
+
+
+        /// <summary>
+        /// The method deletes a student from the database using the student's ID provided in the request URL. It returns the number of rows affected.
+        /// </summary>
+        /// <param name="StudentId"> The unique ID of the student to be deleted </param>
+        /// <returns>
+        /// The number of rows affected by the DELETE operation
+        /// </returns>
+        /// <example>
+        /// DELETE: api/StudentAPI/DeleteStudent/11 -> 1
+        /// </example>
+
+        [HttpDelete(template: "DeleteStudent/{StudentId}")]
+
+        public int DeleteStudent(int StudentId)
+        {
+            // 'using' keyword is used that will close the connection by itself after executing the code given inside
+            using (MySqlConnection Connection = _studentcontext.AccessDatabase())
+            {
+                // Opening the Connection
+                Connection.Open();
+
+                // Establishing a new query for our database
+                MySqlCommand Command = Connection.CreateCommand();
+
+                // It contains the SQL query to delete a record from the students table based on the student's ID
+                Command.CommandText = "DELETE FROM students WHERE studentid=@id";
+                Command.Parameters.AddWithValue("@id", StudentId);
+
+                // It runs the DELETE query and the number of affected rows is returned.
+                return Command.ExecuteNonQuery();
+
+            }
+
+        }
     }
 
 

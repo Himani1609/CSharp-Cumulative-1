@@ -3,7 +3,13 @@
 <!-- Displaying all the students on the web page from where you can select any student  -->
 
 <div class="student-list">
+   
     <h2>Our students</h2>
+
+    <!-- A link is added that will direct to another webpage where is a form to add a new student-->
+    <a style="margin-bottom:10px;" href="/StudentPage/NewStudent">Add Student</a>
+
+
     @foreach (Csharp_Cumulative_Assignment_1.Models.Student Student in Model)
     {
         <div class="student-card">

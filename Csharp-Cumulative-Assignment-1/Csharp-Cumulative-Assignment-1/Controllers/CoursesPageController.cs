@@ -55,5 +55,55 @@ namespace Csharp_Cumulative_Assignment_1.Controllers
         }
 
 
+
+        // GET : CoursePage/NewCourse
+        [HttpGet]
+        public IActionResult NewCourse(int id)
+        {
+            return View();
+        }
+
+
+
+        // POST: CoursePage/CreateCourse
+        [HttpPost]
+        public IActionResult CreateCourse(Course NewCourse)
+        {
+            int CourseId = _api.AddCourse(NewCourse);
+
+            // redirects to "Show" action on "Course" cotroller with id parameter supplied
+            return RedirectToAction("ShowCourses", new { id = CourseId });
+        }
+
+
+
+
+
+
+        // GET : CoursePage/DeleteConfirmCourse/{id}
+        [HttpGet]
+        public IActionResult DeleteConfirmCourse(int id)
+        {
+            Course SelectedCourse = _api.FindCourse(id);
+            return View(SelectedCourse);
+        }
+
+
+
+
+
+
+
+
+        // POST: CoursePage/DeleteCourse/{id}
+        [HttpPost]
+        public IActionResult DeleteCourse(int id)
+        {
+            int CourseId = _api.DeleteCourse(id);
+            // redirects to list action
+            return RedirectToAction("ListCourses");
+        }
+
+
     }
 }
