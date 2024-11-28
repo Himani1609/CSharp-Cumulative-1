@@ -1,20 +1,26 @@
-# Project Overview
+# School Database MVP - CRUD Operations for Teachers, Students, and Courses
 
-This C# project is designed as a cumulative assignment, demonstrating the implementation of **CRUD (Create, Read, Update, and Delete)** operations. It includes classes, properties, and methods to manage data, specifically for an educational context where `Teacher` objects represent instructors with attributes like `TeacherId`, `TeacherFName`, `TeacherLName`, `TeacherHireDate`, `EmployeeNumber`, and `TeacherSalary`.
+## Project Overview
+This project is a cumulative assignment showcasing the implementation of **CRUD (Create, Read, Update, Delete)** operations using _ASP.NET Core Web API and MVC_. The application manages data for teachers, students, and courses within a school database. The core objective is to build a Minimum Viable Product (MVP) that supports efficient data management through both API endpoints and dynamic web pages.
 
 ## Features
 
-- **Teacher Class**: Includes properties such as `TeacherId`, `TeacherFName`, `TeacherLName`, `TeacherHireDate`, `EmployeeNumber`, and `TeacherSalary`.
-- **Data Management**: Designed to handle various aspects of a teacher's information for easy retrieval and management.
-- **OOP Principles**: Utilizes encapsulation, getters, and setters to ensure data integrity and code readability.
+- **_Comprehensive CRUD Operations_**: Enables users to create, read, update, and delete records for teachers, students, and courses through APIs and dynamic web pages.
+- **_Data Validation and Integrity_**: Implements error handling for invalid entries, such as future dates, duplicate identifiers, and missing required fields.
+- **_Relational Database Integration_**: Utilizes MySQL with properly structured relationships, ensuring data consistency between teachers, students, and courses.
+
+## Testing and Validation
+The project includes comprehensive testing to ensure each CRUD operation works correctly, with cURL commands and web page interaction screenshots as evidence. The testing covers:
+
+- **_Adding Records_**: Validation of data input and correct database insertion.
+- **_Reading Records_**: Verification of accurate retrieval and display of teacher, student, and course data from the database.
+- **_Deleting Records_**: Proper deletion confirmation and handling non-existent records.
 
 ## Usability
+This project is designed for educational institutions or developers interested in managing academic data using ASP.NET Core. It provides a learning tool for developers and students to understand core concepts in web development, database interaction, and object-oriented programming.
 
-This project is intended for educational institutions, developers, or anyone interested in managing teacher data using object-oriented programming concepts. By utilizing this project, users can:
+## Learning Objectives
 
-- **Demonstrate CRUD Functionality**: Create and manage data related to teachers, including unique identification numbers, names, hire dates, employee numbers, and salary details.
-- **Explore OOP Principles**: This project is ideal for developers learning C#, as it provides practical examples of encapsulation, property management, and class structures.
-
-The project serves as a learning tool for:
-- **_New Developers_**: By exploring a simple C# project structure.
-- **_Students_**: Studying OOP and CRUD concepts and looking for practical examples.
+- **_CRUD Operations Mastery_**: Implement full CRUD functionality across three different data models: Teachers, Students, and Courses.
+- **_OOP Principles in Practice_**: Use encapsulation, property management, and modular class structures for clarity and scalability.
+- **_Database Integration_**: Utilize relational database principles with foreign key relationships between Courses and Teachers.
