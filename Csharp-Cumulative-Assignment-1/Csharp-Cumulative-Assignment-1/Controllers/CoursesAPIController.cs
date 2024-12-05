@@ -175,7 +175,7 @@ namespace Csharp_Cumulative_Assignment_1.Controllers
         /// The ID of the newly inserted course record
         /// </returns>
         /// <example> 
-        /// POST: api/CourseAPI/AddCourse -> 11
+        /// POST: api/CoursesAPI/AddCourse -> 11
         /// assuming that 11th record is added
         /// </example>
 
@@ -194,10 +194,10 @@ namespace Csharp_Cumulative_Assignment_1.Controllers
                 MySqlCommand Command = Connection.CreateCommand();
 
                 // It contains the SQL query to insert a new course into the courses table            
-                Command.CommandText = "INSERT INTO courses (coursecode, teacherid, startdate, finishdate, coursename) VALUES (@coursecode, @teacherid, @startdate, @finishdate, @coursename)";
+                Command.CommandText = "INSERT INTO courses (coursecode, courseid, startdate, finishdate, coursename) VALUES (@coursecode, @courseid, @startdate, @finishdate, @coursename)";
 
                 Command.Parameters.AddWithValue("@coursecode", CourseData.CourseCode);
-                Command.Parameters.AddWithValue("@teacherid", CourseData.TeacherId);
+                Command.Parameters.AddWithValue("@courseid", CourseData.CourseId);
                 Command.Parameters.AddWithValue("@startdate", CourseData.CourseStartDate);
                 Command.Parameters.AddWithValue("@finishdate", CourseData.CourseFinishDate);
                 Command.Parameters.AddWithValue("@coursename", CourseData.CourseName);
@@ -223,7 +223,7 @@ namespace Csharp_Cumulative_Assignment_1.Controllers
         /// The number of rows affected by the DELETE operation
         /// </returns>
         /// <example>
-        /// DELETE: api/CourseAPI/DeleteCourse/11 -> 1
+        /// DELETE: api/CoursesAPI/DeleteCourse/11 -> 1
         /// </example>
 
         [HttpDelete(template: "DeleteCourse/{CourseId}")]
@@ -249,6 +249,54 @@ namespace Csharp_Cumulative_Assignment_1.Controllers
             }
 
         }
+
+
+        /// <summary>
+        /// Updates an Course in the database. Data is Course object, request query contains ID
+        /// </summary>
+        /// <param name="CourseData">Course Object</param>
+        /// <param name="CourseId">The Course ID primary key</param>
+        /// <example>
+        /// PUT: api/Course/UpdateCourse/4
+        /// Headers: Content-Type: application/json
+        /// Request Body:
+        /// { "CourseCode":"http5121", "CourseStartDate":2024-12-05,"CourseFinishDate":2024-12-04,"CourseName":"WebDev"} -> 
+        /// {"CourseId":4,"CourseCode":"http5121", "CourseStartDate":2024-12-05 12:00:00 AM,"CourseFinishDate":2024-12-04 12:00:00 AM,"CourseName":"WebDev" }
+        /// </example>
+        /// <returns>
+        /// The updated Course object
+        /// </returns>
+        [HttpPut(template: "UpdateCourse/{CourseId}")]
+        public Course UpdateCourse(int CourseId, [FromBody] Course CourseData)
+        {
+            // 'using' will close the connection after the code executes
+            using (MySqlConnection Connection = _schoolcontext.AccessDatabase())
+            {
+                Connection.Open();
+
+                //Establish a new command (query) for our database
+                MySqlCommand Command = Connection.CreateCommand();
+
+                // parameterize query
+                Command.CommandText = "update courses set coursecode=@coursecode, startdate = @startdate, finishdate = @finishdate, coursename = @coursename, teacherid = @teacherid where courseid=@id";
+                Command.Parameters.AddWithValue("@coursecode", CourseData.CourseCode);
+                Command.Parameters.AddWithValue("@startdate", CourseData.CourseStartDate);
+                Command.Parameters.AddWithValue("@finishdate", CourseData.CourseFinishDate);
+                Command.Parameters.AddWithValue("@coursename", CourseData.CourseName);
+                Command.Parameters.AddWithValue("@teacherid", CourseData.TeacherId);
+
+
+                Command.Parameters.AddWithValue("@id", CourseId);
+
+                Command.ExecuteNonQuery();
+
+
+
+            }
+
+            return FindCourse(CourseId);
+        }
+
 
 
 

@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|d:\\web_development\\csharp-cumulative-1\\csharp-cumulative-assignment-1\\csharp-cumulative-assignment-1\\views\\studentpage\\showstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|solutionrelative:csharp-cumulative-assignment-1\\views\\studentpage\\showstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|d:\\web_development\\csharp-cumulative-1\\csharp-cumulative-assignment-1\\csharp-cumulative-assignment-1\\views\\coursespage\\showcourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|solutionrelative:csharp-cumulative-assignment-1\\views\\coursespage\\showcourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|d:\\web_development\\csharp-cumulative-1\\csharp-cumulative-assignment-1\\csharp-cumulative-assignment-1\\views\\studentpage\\deleteconfirmstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|solutionrelative:csharp-cumulative-assignment-1\\views\\studentpage\\deleteconfirmstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|d:\\web_development\\csharp-cumulative-1\\csharp-cumulative-assignment-1\\csharp-cumulative-assignment-1\\views\\coursespage\\deleteconfirmcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|solutionrelative:csharp-cumulative-assignment-1\\views\\coursespage\\deleteconfirmcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|d:\\web_development\\csharp-cumulative-1\\csharp-cumulative-assignment-1\\csharp-cumulative-assignment-1\\controllers\\studentpagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|solutionrelative:csharp-cumulative-assignment-1\\controllers\\studentpagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|d:\\web_development\\csharp-cumulative-1\\csharp-cumulative-assignment-1\\csharp-cumulative-assignment-1\\views\\coursespage\\editcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|solutionrelative:csharp-cumulative-assignment-1\\views\\coursespage\\editcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|d:\\web_development\\csharp-cumulative-1\\csharp-cumulative-assignment-1\\csharp-cumulative-assignment-1\\controllers\\coursespagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,24 +15,28 @@
       "RelativeMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|solutionrelative:csharp-cumulative-assignment-1\\controllers\\coursesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|d:\\web_development\\csharp-cumulative-1\\csharp-cumulative-assignment-1\\csharp-cumulative-assignment-1\\views\\coursespage\\listcourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|solutionrelative:csharp-cumulative-assignment-1\\views\\coursespage\\listcourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|d:\\web_development\\csharp-cumulative-1\\csharp-cumulative-assignment-1\\csharp-cumulative-assignment-1\\controllers\\teacherapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|solutionrelative:csharp-cumulative-assignment-1\\controllers\\teacherapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|d:\\web_development\\csharp-cumulative-1\\csharp-cumulative-assignment-1\\csharp-cumulative-assignment-1\\views\\coursespage\\newcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|solutionrelative:csharp-cumulative-assignment-1\\views\\coursespage\\newcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|d:\\web_development\\csharp-cumulative-1\\csharp-cumulative-assignment-1\\csharp-cumulative-assignment-1\\views\\studentpage\\liststudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|solutionrelative:csharp-cumulative-assignment-1\\views\\studentpage\\liststudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|d:\\web_development\\csharp-cumulative-1\\csharp-cumulative-assignment-1\\csharp-cumulative-assignment-1\\views\\studentpage\\newstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|solutionrelative:csharp-cumulative-assignment-1\\views\\studentpage\\newstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|d:\\web_development\\csharp-cumulative-1\\csharp-cumulative-assignment-1\\csharp-cumulative-assignment-1\\controllers\\teacherpagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|solutionrelative:csharp-cumulative-assignment-1\\controllers\\teacherpagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|d:\\web_development\\csharp-cumulative-1\\csharp-cumulative-assignment-1\\csharp-cumulative-assignment-1\\controllers\\studentapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|solutionrelative:csharp-cumulative-assignment-1\\controllers\\studentapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|d:\\web_development\\csharp-cumulative-1\\csharp-cumulative-assignment-1\\csharp-cumulative-assignment-1\\controllers\\studentpagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|solutionrelative:csharp-cumulative-assignment-1\\controllers\\studentpagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|d:\\web_development\\csharp-cumulative-1\\csharp-cumulative-assignment-1\\csharp-cumulative-assignment-1\\views\\coursespage\\showcourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|solutionrelative:csharp-cumulative-assignment-1\\views\\coursespage\\showcourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|d:\\web_development\\csharp-cumulative-1\\csharp-cumulative-assignment-1\\csharp-cumulative-assignment-1\\views\\teacherpage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0BDF9573-7BF9-4E92-BB08-DF03BC93A81A}|Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1.csproj|solutionrelative:csharp-cumulative-assignment-1\\views\\teacherpage\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,163 +46,119 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ShowStudent.cshtml",
-              "DocumentMoniker": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Views\\StudentPage\\ShowStudent.cshtml",
-              "RelativeDocumentMoniker": "Csharp-Cumulative-Assignment-1\\Views\\StudentPage\\ShowStudent.cshtml",
-              "ToolTip": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Views\\StudentPage\\ShowStudent.cshtml",
-              "RelativeToolTip": "Csharp-Cumulative-Assignment-1\\Views\\StudentPage\\ShowStudent.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T04:26:44.679Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "StudentPageController.cs",
-              "DocumentMoniker": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Controllers\\StudentPageController.cs",
-              "RelativeDocumentMoniker": "Csharp-Cumulative-Assignment-1\\Controllers\\StudentPageController.cs",
-              "ToolTip": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Controllers\\StudentPageController.cs",
-              "RelativeToolTip": "Csharp-Cumulative-Assignment-1\\Controllers\\StudentPageController.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAowGIAAAAwAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "TeacherAPIController.cs",
+              "DocumentMoniker": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Controllers\\TeacherAPIController.cs",
+              "RelativeDocumentMoniker": "Csharp-Cumulative-Assignment-1\\Controllers\\TeacherAPIController.cs",
+              "ToolTip": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Controllers\\TeacherAPIController.cs",
+              "RelativeToolTip": "Csharp-Cumulative-Assignment-1\\Controllers\\TeacherAPIController.cs",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAqwCkBAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T04:01:57.531Z",
+              "WhenOpened": "2024-12-04T18:44:43.716Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "CoursesAPIController.cs",
-              "DocumentMoniker": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Controllers\\CoursesAPIController.cs",
-              "RelativeDocumentMoniker": "Csharp-Cumulative-Assignment-1\\Controllers\\CoursesAPIController.cs",
-              "ToolTip": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Controllers\\CoursesAPIController.cs",
-              "RelativeToolTip": "Csharp-Cumulative-Assignment-1\\Controllers\\CoursesAPIController.cs",
-              "ViewState": "AgIAAOwAAAAAAAAAAAAowM0AAAAQAAAAAAAAAA==",
+              "Title": "StudentPageController.cs",
+              "DocumentMoniker": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Controllers\\StudentPageController.cs",
+              "RelativeDocumentMoniker": "Csharp-Cumulative-Assignment-1\\Controllers\\StudentPageController.cs",
+              "ToolTip": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Controllers\\StudentPageController.cs",
+              "RelativeToolTip": "Csharp-Cumulative-Assignment-1\\Controllers\\StudentPageController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAswGcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T04:04:28.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T18:42:10.971Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CoursesPageController.cs",
-              "DocumentMoniker": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Controllers\\CoursesPageController.cs",
-              "RelativeDocumentMoniker": "Csharp-Cumulative-Assignment-1\\Controllers\\CoursesPageController.cs",
-              "ToolTip": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Controllers\\CoursesPageController.cs",
-              "RelativeToolTip": "Csharp-Cumulative-Assignment-1\\Controllers\\CoursesPageController.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAIAwwEoAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T04:02:50.819Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DeleteConfirmStudent.cshtml",
-              "DocumentMoniker": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Views\\StudentPage\\DeleteConfirmStudent.cshtml",
-              "RelativeDocumentMoniker": "Csharp-Cumulative-Assignment-1\\Views\\StudentPage\\DeleteConfirmStudent.cshtml",
-              "ToolTip": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Views\\StudentPage\\DeleteConfirmStudent.cshtml",
-              "RelativeToolTip": "Csharp-Cumulative-Assignment-1\\Views\\StudentPage\\DeleteConfirmStudent.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABQAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Views\\TeacherPage\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Csharp-Cumulative-Assignment-1\\Views\\TeacherPage\\Edit.cshtml",
+              "ToolTip": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Views\\TeacherPage\\Edit.cshtml",
+              "RelativeToolTip": "Csharp-Cumulative-Assignment-1\\Views\\TeacherPage\\Edit.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T04:18:33.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T18:41:22.002Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "ShowCourses.cshtml",
               "DocumentMoniker": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Views\\CoursesPage\\ShowCourses.cshtml",
               "RelativeDocumentMoniker": "Csharp-Cumulative-Assignment-1\\Views\\CoursesPage\\ShowCourses.cshtml",
               "ToolTip": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Views\\CoursesPage\\ShowCourses.cshtml",
               "RelativeToolTip": "Csharp-Cumulative-Assignment-1\\Views\\CoursesPage\\ShowCourses.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T04:25:48.136Z",
+              "WhenOpened": "2024-12-04T18:35:06.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditCourse.cshtml",
+              "DocumentMoniker": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Views\\CoursesPage\\EditCourse.cshtml",
+              "RelativeDocumentMoniker": "Csharp-Cumulative-Assignment-1\\Views\\CoursesPage\\EditCourse.cshtml",
+              "ToolTip": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Views\\CoursesPage\\EditCourse.cshtml",
+              "RelativeToolTip": "Csharp-Cumulative-Assignment-1\\Views\\CoursesPage\\EditCourse.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T18:34:42.551Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DeleteConfirmCourse.cshtml",
-              "DocumentMoniker": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Views\\CoursesPage\\DeleteConfirmCourse.cshtml",
-              "RelativeDocumentMoniker": "Csharp-Cumulative-Assignment-1\\Views\\CoursesPage\\DeleteConfirmCourse.cshtml",
-              "ToolTip": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Views\\CoursesPage\\DeleteConfirmCourse.cshtml",
-              "RelativeToolTip": "Csharp-Cumulative-Assignment-1\\Views\\CoursesPage\\DeleteConfirmCourse.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T04:17:20.886Z",
+              "DocumentIndex": 2,
+              "Title": "CoursesAPIController.cs",
+              "DocumentMoniker": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Controllers\\CoursesAPIController.cs",
+              "RelativeDocumentMoniker": "Csharp-Cumulative-Assignment-1\\Controllers\\CoursesAPIController.cs",
+              "ToolTip": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Controllers\\CoursesAPIController.cs",
+              "RelativeToolTip": "Csharp-Cumulative-Assignment-1\\Controllers\\CoursesAPIController.cs",
+              "ViewState": "AgIAAA4BAAAAAAAAAAAqwBgBAAC0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T18:30:32.383Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ListStudent.cshtml",
-              "DocumentMoniker": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Views\\StudentPage\\ListStudent.cshtml",
-              "RelativeDocumentMoniker": "Csharp-Cumulative-Assignment-1\\Views\\StudentPage\\ListStudent.cshtml",
-              "ToolTip": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Views\\StudentPage\\ListStudent.cshtml",
-              "RelativeToolTip": "Csharp-Cumulative-Assignment-1\\Views\\StudentPage\\ListStudent.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T04:16:11.511Z",
+              "DocumentIndex": 1,
+              "Title": "CoursesPageController.cs",
+              "DocumentMoniker": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Controllers\\CoursesPageController.cs",
+              "RelativeDocumentMoniker": "Csharp-Cumulative-Assignment-1\\Controllers\\CoursesPageController.cs",
+              "ToolTip": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Controllers\\CoursesPageController.cs",
+              "RelativeToolTip": "Csharp-Cumulative-Assignment-1\\Controllers\\CoursesPageController.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAADwv3kAAACUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T18:29:32.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ListCourses.cshtml",
-              "DocumentMoniker": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Views\\CoursesPage\\ListCourses.cshtml",
-              "RelativeDocumentMoniker": "Csharp-Cumulative-Assignment-1\\Views\\CoursesPage\\ListCourses.cshtml",
-              "ToolTip": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Views\\CoursesPage\\ListCourses.cshtml",
-              "RelativeToolTip": "Csharp-Cumulative-Assignment-1\\Views\\CoursesPage\\ListCourses.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T04:16:28.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "NewCourse.cshtml",
-              "DocumentMoniker": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Views\\CoursesPage\\NewCourse.cshtml",
-              "RelativeDocumentMoniker": "Csharp-Cumulative-Assignment-1\\Views\\CoursesPage\\NewCourse.cshtml",
-              "ToolTip": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Views\\CoursesPage\\NewCourse.cshtml",
-              "RelativeToolTip": "Csharp-Cumulative-Assignment-1\\Views\\CoursesPage\\NewCourse.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T04:16:43.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "NewStudent.cshtml",
-              "DocumentMoniker": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Views\\StudentPage\\NewStudent.cshtml",
-              "RelativeDocumentMoniker": "Csharp-Cumulative-Assignment-1\\Views\\StudentPage\\NewStudent.cshtml",
-              "ToolTip": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Views\\StudentPage\\NewStudent.cshtml",
-              "RelativeToolTip": "Csharp-Cumulative-Assignment-1\\Views\\StudentPage\\NewStudent.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T04:26:31.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
               "Title": "StudentAPIController.cs",
               "DocumentMoniker": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Controllers\\StudentAPIController.cs",
               "RelativeDocumentMoniker": "Csharp-Cumulative-Assignment-1\\Controllers\\StudentAPIController.cs",
               "ToolTip": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Controllers\\StudentAPIController.cs",
               "RelativeToolTip": "Csharp-Cumulative-Assignment-1\\Controllers\\StudentAPIController.cs",
-              "ViewState": "AgIAAN0AAAAAAAAAAAAWwMcAAACzAAAAAAAAAA==",
+              "ViewState": "AgIAAP0AAAAAAAAAAAD4vwkBAACGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T04:03:36.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T18:44:21.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TeacherPageController.cs",
+              "DocumentMoniker": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Controllers\\TeacherPageController.cs",
+              "RelativeDocumentMoniker": "Csharp-Cumulative-Assignment-1\\Controllers\\TeacherPageController.cs",
+              "ToolTip": "D:\\Web_Development\\Csharp-Cumulative-1\\Csharp-Cumulative-Assignment-1\\Csharp-Cumulative-Assignment-1\\Controllers\\TeacherPageController.cs",
+              "RelativeToolTip": "Csharp-Cumulative-Assignment-1\\Controllers\\TeacherPageController.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAcwIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T18:46:51.111Z"
             }
           ]
         }

@@ -100,5 +100,35 @@ namespace Csharp_Cumulative_Assignment_1.Controllers
         }
 
 
+
+        // GET : StudentPage/EditStudent/{id}
+        [HttpGet]
+        public IActionResult EditStudent(int id)
+        {
+            Student SelectedStudent = _api.FindStudent(id);
+            return View(SelectedStudent);
+        }
+
+
+
+        // POST: StudentPage/Update/{id}
+        [HttpPost]
+        public IActionResult Update(int id, string StudentFName, string StudentLName, string StudentNumber, DateTime StudentEnrolmentDate)
+        {
+            Student UpdatedStudent = new Student();
+            UpdatedStudent.StudentFName = StudentFName;
+            UpdatedStudent.StudentLName = StudentLName;
+            UpdatedStudent.StudentNumber = StudentNumber;
+            UpdatedStudent.StudentEnrolmentDate = StudentEnrolmentDate;
+
+
+            // not doing anything with the response
+            _api.UpdateStudent(id, UpdatedStudent);
+
+            // redirects to show teacher
+            return RedirectToAction("ShowStudent", new { id });
+        }
+
+
     }
 }

@@ -22,6 +22,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1BhZ2VcRGVsZXRlQ29uZmlybUNvdXJzZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Web_Development/Csharp-Cumulative-1/Csharp-Cumulative-Assignment-1/Csharp-Cumulative-Assignment-1/Views/CoursesPage/EditCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1BhZ2VcRWRpdENvdXJzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Web_Development/Csharp-Cumulative-1/Csharp-Cumulative-Assignment-1/Csharp-Cumulative-Assignment-1/Views/CoursesPage/ListCourses.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1BhZ2VcTGlzdENvdXJzZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -54,6 +58,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFBhZ2VcRGVsZXRlQ29uZmlybVN0dWRlbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Web_Development/Csharp-Cumulative-1/Csharp-Cumulative-Assignment-1/Csharp-Cumulative-Assignment-1/Views/StudentPage/EditStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFBhZ2VcRWRpdFN0dWRlbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Web_Development/Csharp-Cumulative-1/Csharp-Cumulative-Assignment-1/Csharp-Cumulative-Assignment-1/Views/StudentPage/ListStudent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFBhZ2VcTGlzdFN0dWRlbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -68,6 +76,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Web_Development/Csharp-Cumulative-1/Csharp-Cumulative-Assignment-1/Csharp-Cumulative-Assignment-1/Views/TeacherPage/DeleteConfirm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclBhZ2VcRGVsZXRlQ29uZmlybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web_Development/Csharp-Cumulative-1/Csharp-Cumulative-Assignment-1/Csharp-Cumulative-Assignment-1/Views/TeacherPage/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclBhZ2VcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Web_Development/Csharp-Cumulative-1/Csharp-Cumulative-Assignment-1/Csharp-Cumulative-Assignment-1/Views/TeacherPage/List.cshtml]

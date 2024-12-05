@@ -45,7 +45,7 @@ namespace Csharp_Cumulative_Assignment_1.Controllers
         /// Information of the SelectedCourse from the database school
         /// </returns>
         /// <example>
-        /// GET :api/CoursesPage/Show/{id}  ->  Gives the information of the SelectedCourse
+        /// GET :api/CoursesPage/ShowCourses/{id}  ->  Gives the information of the SelectedCourse
         /// </example>
         /// 
         public IActionResult ShowCourses(int id)
@@ -56,7 +56,7 @@ namespace Csharp_Cumulative_Assignment_1.Controllers
 
 
 
-        // GET : CoursePage/NewCourse
+        // GET : CoursesPage/NewCourse
         [HttpGet]
         public IActionResult NewCourse(int id)
         {
@@ -65,7 +65,7 @@ namespace Csharp_Cumulative_Assignment_1.Controllers
 
 
 
-        // POST: CoursePage/CreateCourse
+        // POST: CoursesPage/CreateCourse
         [HttpPost]
         public IActionResult CreateCourse(Course NewCourse)
         {
@@ -80,7 +80,7 @@ namespace Csharp_Cumulative_Assignment_1.Controllers
 
 
 
-        // GET : CoursePage/DeleteConfirmCourse/{id}
+        // GET : CoursesPage/DeleteConfirmCourse/{id}
         [HttpGet]
         public IActionResult DeleteConfirmCourse(int id)
         {
@@ -95,13 +95,45 @@ namespace Csharp_Cumulative_Assignment_1.Controllers
 
 
 
-        // POST: CoursePage/DeleteCourse/{id}
+        // POST: CoursesPage/DeleteCourse/{id}
         [HttpPost]
         public IActionResult DeleteCourse(int id)
         {
             int CourseId = _api.DeleteCourse(id);
             // redirects to list action
             return RedirectToAction("ListCourses");
+        }
+
+
+
+
+        // GET : CoursesPage/EditCourse/{id}
+        [HttpGet]
+        public IActionResult EditCourse(int id)
+        {
+            Course SelectedCourse = _api.FindCourse(id);
+            return View(SelectedCourse);
+        }
+
+
+
+        // POST: CoursesPage/Update/{id}
+        [HttpPost]
+        public IActionResult Update(int id, string CourseCode, DateTime CourseStartDate, DateTime CourseFinishDate, string CourseName, int TeacherId)
+        {
+            Course UpdatedCourse = new Course();
+            UpdatedCourse.CourseCode = CourseCode;
+            UpdatedCourse.CourseStartDate = CourseStartDate;
+            UpdatedCourse.CourseFinishDate = CourseFinishDate;
+            UpdatedCourse.CourseName = CourseName;
+            UpdatedCourse.TeacherId = TeacherId;
+
+
+            // not doing anything with the response
+            _api.UpdateCourse(id, UpdatedCourse);
+
+            // redirects to show teacher
+            return RedirectToAction("ShowCourses", new { id });
         }
 
 
