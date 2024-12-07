@@ -14,6 +14,7 @@ The project includes comprehensive testing to ensure each CRUD operation works c
 
 - **_Adding Records_**: Validation of data input and correct database insertion.
 - **_Reading Records_**: Verification of accurate retrieval and display of teacher, student, and course data from the database.
+- **_Updating Records_**: Verification of accurate update of teacher, student, and course data in the database.
 - **_Deleting Records_**: Proper deletion confirmation and handling non-existent records.
 
 ## Usability
