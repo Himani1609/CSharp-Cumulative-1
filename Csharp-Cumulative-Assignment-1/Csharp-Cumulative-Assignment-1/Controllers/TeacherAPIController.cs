@@ -265,7 +265,7 @@ namespace Csharp_Cumulative_Assignment_1.Controllers
         /// <param name="TeacherData">Teacher Object</param>
         /// <param name="TeacherId">The Teacher ID primary key</param>
         /// <example>
-        /// PUT: api/Teacher/UpdateTeacher/4
+        /// PUT: api/TeacherAPI/UpdateTeacher/4
         /// Headers: Content-Type: application/json
         /// Request Body:
         /// { "TeacherFname":"Himani", "TeacherLname":"Bansal", "TeacherSalary":12000, "TeacherHireDate":2024-12-05 12:00:00 AM,"EmployeeNumber":1002} -> 

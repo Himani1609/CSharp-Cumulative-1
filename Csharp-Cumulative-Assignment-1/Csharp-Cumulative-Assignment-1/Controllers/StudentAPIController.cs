@@ -259,7 +259,7 @@ namespace Csharp_Cumulative_Assignment_1.Controllers
         /// <param name="StudentData">Student Object</param>
         /// <param name="StudentId">The Student ID primary key</param>
         /// <example>
-        /// PUT: api/Student/UpdateStudent/14
+        /// PUT: api/StudentAPI/UpdateStudent/14
         /// Headers: Content-Type: application/json
         /// Request Body:
         /// { "StudentFname":"Himani", "StudentLname":"Bansal", "StudentNumber" :1221, StudentEnrolmentDate":2024-12-05} -> 

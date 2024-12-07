@@ -257,7 +257,7 @@ namespace Csharp_Cumulative_Assignment_1.Controllers
         /// <param name="CourseData">Course Object</param>
         /// <param name="CourseId">The Course ID primary key</param>
         /// <example>
-        /// PUT: api/Course/UpdateCourse/4
+        /// PUT: api/CoursesAPI/UpdateCourse/4
         /// Headers: Content-Type: application/json
         /// Request Body:
         /// { "CourseCode":"http5121", "CourseStartDate":2024-12-05,"CourseFinishDate":2024-12-04,"CourseName":"WebDev"} -> 
