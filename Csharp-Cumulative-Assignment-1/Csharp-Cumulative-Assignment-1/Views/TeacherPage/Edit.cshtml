@@ -5,7 +5,7 @@
         <a class="navlink" href="/TeacherPage/Show/@Model.TeacherId">Back</a>
     </nav>
     <h2>New Teacher</h2>
-    <form method="POST" action="/TeacherPage/Update/@Model.TeacherId">
+    <form name="updateform" method="POST" action="/TeacherPage/Update/@Model.TeacherId">
         <div class="inputrow">
             <label for="TeacherFname">First Name:</label>
             <input type="text" id="TeacherFname" name="TeacherFname" value="@Model.TeacherFName" />
@@ -18,7 +18,7 @@
         </div>
         <div class="inputrow">
             <label for="TeacherHireDate">HireDate:</label>
-            <input type="datetime" id="TeacherHireDate" name="TeacherHireDate" value="@Model.TeacherHireDate" />
+            <input type="datetime-local" id="TeacherHireDate" name="TeacherHireDate" value="@Model.TeacherHireDate" />
         </div>
         <div class="inputrow">
             <label for="TeacherSalary">Salary:</label>
@@ -33,3 +33,48 @@
         </div>
     </form>
 </div>
+
+
+<script>
+
+    // Creating a formHandle which has whole form as an object
+    var formHandle = document.forms.updateform;
+
+    // Creating variables that access the TeacherFname, TeacherLname and TeacherSalary from the form
+    var f_name = formHandle.TeacherFname;
+    var l_name = formHandle.TeacherLname;
+    var salary = formHandle.TeacherSalary;
+
+    // On submit, checkinput function is called
+    formHandle.onsubmit = checkinput;
+
+    // checkinput function is validating the input fields of TeacherFname, TeacherLname, and TeacherSalary
+    function checkinput() {
+        if (f_name.value === "") {
+            f_name.style.background = "red";
+            return false;
+        }
+        else {
+            f_name.style.background = "inherit";
+        }
+
+        if (l_name.value === "") {
+            l_name.style.background = "red";
+            return false;
+        }
+        else {
+            l_name.style.background = "inherit";
+        }
+        if(salary.value < 0 ){
+            salary.style.background= "red";
+            return false;
+        }
+        else{
+            salary.style.background = "inherit";
+        }
+
+    }
+
+
+
+</script>
