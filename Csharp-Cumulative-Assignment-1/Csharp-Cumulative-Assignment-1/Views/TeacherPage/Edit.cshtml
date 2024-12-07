@@ -52,6 +52,7 @@
     function checkinput() {
         if (f_name.value === "") {
             f_name.style.background = "red";
+            f_name.focus();
             return false;
         }
         else {
@@ -60,6 +61,7 @@
 
         if (l_name.value === "") {
             l_name.style.background = "red";
+            l_name.focus();
             return false;
         }
         else {
@@ -67,14 +69,12 @@
         }
         if(salary.value < 0 ){
             salary.style.background= "red";
+            salary.focus();
             return false;
         }
         else{
             salary.style.background = "inherit";
         }
-
     }
-
-
 
 </script>
